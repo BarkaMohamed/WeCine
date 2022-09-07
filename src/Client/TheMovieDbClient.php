@@ -87,7 +87,6 @@ class TheMovieDbClient implements TheMovieDBInterface
     {
         $url = $this->getURL() . self::GENDER_MOVIE_LIST_URI;
         $response = $this->httpClient->request('GET', $url, $this->queryParameters);
-//dd($response->toArray());
         return $response->toArray();
     }
 
