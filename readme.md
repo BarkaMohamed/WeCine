@@ -21,12 +21,12 @@ créez le fichier .env.local sous la racine
 définissez les variables d'environnement dans le fichier .env.local :
 
 
-MOVIE_DB_API_URL=https://api.themoviedb.org
-MOVIE_DB_API_VERSION=3
-MOVIE_DB_API_KEY= VOTRE_CLE_API
-MOVIE_DB_API_LANGUAGE=FR
+* MOVIE_DB_API_URL=https://api.themoviedb.org
+* MOVIE_DB_API_VERSION=3
+* MOVIE_DB_API_KEY= VOTRE_CLE_API
+* MOVIE_DB_API_LANGUAGE=FR
 
 
-executer la commande : symfony server:start
+executez la commande : symfony server:start
 
 
