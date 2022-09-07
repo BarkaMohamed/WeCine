@@ -46,7 +46,7 @@ class MoviesController extends AbstractFOSRestController
      */
     public function moviesByGender(Request $request)
     {
-        $genderIds = $request->get('id');
+        $genderIds = $request->query->get('id') ?? [];
         return $this->moviesManager->getMoviesByGenders($genderIds);
     }
 
